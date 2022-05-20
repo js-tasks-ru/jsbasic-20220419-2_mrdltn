@@ -8,3 +8,5 @@ function showSalary(users, age) {
  
   return result.join('\n');
 }
+
+
