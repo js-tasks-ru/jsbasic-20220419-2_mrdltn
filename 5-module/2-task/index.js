@@ -1,4 +1,5 @@
 function toggleText() {
+
   let hdntxt = document.querySelector('.toggle-text-button');
   let txt = document.getElementById('text');
 
@@ -7,4 +8,5 @@ function toggleText() {
     }
 
   hdntxt.addEventListener('click', handler);
+
 }

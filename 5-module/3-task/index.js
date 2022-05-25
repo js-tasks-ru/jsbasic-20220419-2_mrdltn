@@ -1,4 +1,5 @@
 function initCarousel() {
+
   let btnLeft = document.querySelector('.carousel__arrow_left');
   let btnRight = document.querySelector('.carousel__arrow_right');
   let slide = document.querySelector('.carousel__inner');
@@ -23,4 +24,5 @@ function initCarousel() {
 
   btnRight.addEventListener('click',scrollRight);
   btnLeft.addEventListener('click',scrollLeft);
+
 }
