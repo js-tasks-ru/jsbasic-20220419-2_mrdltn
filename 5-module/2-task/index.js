@@ -1,12 +1,8 @@
 function toggleText() {
+  let button = document.querySelector('.toggle-text-button');
+  let text = document.querySelector('#text');
 
-  let hdntxt = document.querySelector('.toggle-text-button');
-  let txt = document.getElementById('text');
-
-    function handler() {
-        txt.hidden = !txt.hidden;
-    }
-
-  hdntxt.addEventListener('click', handler);
-
+  button.onclick = function() {
+    text.hidden = !text.hidden;
+  }
 }
